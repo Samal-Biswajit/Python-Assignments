@@ -1,0 +1,6 @@
+students = {101: "Amit", 102: "Riya", 103: "John"}
+
+# Invert the dictionary
+inverted_students = {name: roll for roll, name in students.items()}
+
+print("Inverted dictionary:", inverted_students)
